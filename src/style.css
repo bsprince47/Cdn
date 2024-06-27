@@ -12,6 +12,7 @@ a {
 body , html {
     position: relative;
     height: 100vh;
+    background: red;
 }
 
 
