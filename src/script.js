@@ -1,9 +1,3 @@
-const topNav = [
-    {
-        logoSrc : "images/logo/Untitled-1.gif",
-        navLinks : ["Contact", "Barber", "Simple", "Learner", "simple"],
-    }   
-]
 
 const navBar = ["Learner","Gooder","Foostger","greater","bester"];
 
@@ -38,7 +32,7 @@ const mainContent = document.querySelector("#main-content");
 
 
 
-topNavLogo.src = topNav[0].logoSrc;
+
 
 
 for (let TopNavKey in fullList[0]) {
