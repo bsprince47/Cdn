@@ -33,8 +33,9 @@ nav.top-nav {
     height: 100%;
 }
 
-img {
+nav.top-nav .logo-image img {
     height: 100%;
+    object-fit: contain;
 }
 
 #side-bar {
