@@ -26,44 +26,44 @@ const fullList = [
 const topNavLogo  = document.querySelector("#logo-image img");
 const topNavLinks = document.querySelector("#top-nav-links");
 const sidesNavLinks = document.querySelector("#side-nav-bar");
+const sideBarButton = document.querySelector("#side-bar-open-close");
 const mainContent = document.querySelector("#main-content");
 
 
 
+sideBarButton.addEventListener('click', function() {
+    if(sidesNavLinks.classList.contains("nav-open")) {
+    sidesNavLinks.classList.remove("nav-open");
+    
+    } else {
+        sidesNavLinks.classList.add("nav-open");
+    }
+})
 
 
 
 
 
 for (let TopNavKey in fullList[0]) {
-    // Create a new <a> element for each TopNavKey
     let topNavAnchors = document.createElement("a");
     topNavAnchors.innerHTML = TopNavKey;
 
-    // Append the <a> element to topNavLinks
     topNavLinks.appendChild(topNavAnchors);
 
-    // Add click event listener to each <a> element
     topNavAnchors.addEventListener('click', function() {
-        // Clear sidesNavLinks before adding new links
         sidesNavLinks.innerHTML = '';
 
-        // Iterate over the keys of the object associated with the clicked TopNavKey
         Object.keys(fullList[0][TopNavKey]).forEach(function(SideNavKey) {
             let sideNavAnchors = document.createElement("a");
             sideNavAnchors.innerHTML = SideNavKey;
 
-            // Append the <a> element to sidesNavLinks
             sidesNavLinks.appendChild(sideNavAnchors);
 
-            // Add click event listener to each side navigation link
             sideNavAnchors.addEventListener('click', function() {
-                // Clear contentP before displaying new content
                 mainContent.innerHTML = '';
 
-                // Display corresponding content in <p> tag based on SideNavKey
                 let content = fullList[0][TopNavKey][SideNavKey];
-                mainContent.innerHTML = content; // Assuming content is a string or HTML content
+                mainContent.innerHTML = content; 
             });
         });
     });
