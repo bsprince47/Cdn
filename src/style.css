@@ -19,6 +19,7 @@ body , html {
 nav.top-nav {
     height: 50px;
     /* background: #000; */
+    z-index: 1000;
     overflow: auto;
     display: flex;
     align-items: center;
