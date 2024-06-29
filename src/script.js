@@ -81,7 +81,12 @@ const fullList = [
     </div>
   </div>
 </section>`,
-            ANimal: []
+            ANimal: ` <div class="main" style="display: flex;gap: 10px;flex-wrap: wrap;">
+            <blockquote class="instagram-media"><a href="https://www.instagram.com/p/C7WUjCbNUgg/?utm_source=ig_embed&amp;utm_campaign=loading"target="_blank"></a></blockquote>
+            <blockquote class="instagram-media"><a href="https://www.instagram.com/p/C8yIGriIgno/?utm_source=ig_embed&amp;utm_campaign=loading"target="_blank"></a></blockquote>
+            <blockquote class="instagram-media"><a href="https://www.instagram.com/p/C8w1XgmMXIe/?utm_source=ig_embed&amp;utm_campaign=loading"target="_blank"></a></blockquote>
+    
+        </div>`,
 
         },
         
@@ -133,6 +138,11 @@ for (let TopNavKey in fullList[0]) {
 
                 let content = fullList[0][TopNavKey][SideNavKey];
                 mainContent.innerHTML = content; 
+
+
+                if (window.instgrm && window.instgrm.Embeds) {
+                  window.instgrm.Embeds.process();
+              }
             });
         });
     });
