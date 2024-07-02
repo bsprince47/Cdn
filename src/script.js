@@ -128,6 +128,12 @@ for (let TopNavKey in fullList[0]) {
     topNavAnchors.addEventListener('click', function() {
         sidesNavLinks.innerHTML = '';
 
+        topNavLinks.querySelectorAll("a").forEach(anchor => {
+          anchor.style.backgroundColor = "black";
+        })
+        
+        this.style.backgroundColor = "green";
+
         Object.keys(fullList[0][TopNavKey]).forEach(function(SideNavKey) {
             let sideNavAnchors = document.createElement("a");
             sideNavAnchors.innerHTML = SideNavKey;
@@ -136,6 +142,12 @@ for (let TopNavKey in fullList[0]) {
 
             sideNavAnchors.addEventListener('click', function() {
                 mainContent.innerHTML = '';
+
+                sidesNavLinks.querySelectorAll("a").forEach(anchor => {
+                  anchor.style.backgroundColor = "orange";
+                })
+
+                this.style.backgroundColor ="green";
 
                 let content = fullList[0][TopNavKey][SideNavKey];
                 mainContent.innerHTML = content; 

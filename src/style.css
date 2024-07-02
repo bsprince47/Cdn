@@ -12,6 +12,7 @@ iframe {min-width: 300px !important;max-width: 300px !important;}
 body , html {
     position: relative;
     height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -20,7 +21,6 @@ nav.top-nav {
     height: 50px;
     /* background: #000; */
     z-index: 1000;
-    overflow: auto;
     display: flex;
     align-items: center;
     background: white;
@@ -59,6 +59,7 @@ nav .links a {
 nav.second-top-nav {
     height: 30px;
     background: black;
+    top: 50px;
     
 }
 
@@ -76,7 +77,7 @@ nav.secon-top-nav .links a {
 
 section.content-body {
     display: flex;
-    height: calc(100% - 80px);
+    height: calc(100vh - 80px);
     position: relative;
 }
 
@@ -86,7 +87,9 @@ section.content-body > nav.nav-bar {
     
     width: 200px;
     border-right: 1px solid #0003;
-    padding: 10px;
+  
+    background: #ffa500;
+
     display: none;
     flex-direction: column;
     gap: 10px;
@@ -99,12 +102,13 @@ nav.nav-bar#side-nav-bar.nav-open {
     position: fixed;
     left: 0%;
     z-index: 100;
-    height: calc(100% - 80px);
+    height: calc(100vh - 80px);
 
 }
 
 section.content-body > nav.nav-bar a {
     text-decoration: none;
+    padding: 5px 10px;
 }
 
 section.content-body > main.content {
@@ -125,7 +129,6 @@ section.content-body > main.content {
     section.content-body > nav.nav-bar#side-nav-bar {
       display: flex;
       position: initial;
-      height: calc(100%);
     }
 
     section.content-body > main.content {
