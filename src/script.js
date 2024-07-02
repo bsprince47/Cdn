@@ -81,10 +81,11 @@ const fullList = [
     </div>
   </div>
 </section>`,
-            ANimal: ` <div class="main" style="display: flex;gap: 10px;flex-wrap: wrap;">
+            ANimal: ` <div class="main" style="display: flex;gap: 10px;flex-wrap: wrap;justify-content: space-evenly;">
             <blockquote class="instagram-media"><a href="https://www.instagram.com/p/C7WUjCbNUgg/?utm_source=ig_embed&amp;utm_campaign=loading"target="_blank"></a></blockquote>
             <blockquote class="instagram-media"><a href="https://www.instagram.com/p/C8yIGriIgno/?utm_source=ig_embed&amp;utm_campaign=loading"target="_blank"></a></blockquote>
             <blockquote class="instagram-media"><a href="https://www.instagram.com/p/C8w1XgmMXIe/?utm_source=ig_embed&amp;utm_campaign=loading"target="_blank"></a></blockquote>
+            <blockquote class="instagram-media"><a href="https://www.instagram.com/p/C86YwHnI23t/?utm_source=ig_embed&amp;utm_campaign=loading"></a></blockquote>
     
         </div>`,
 
