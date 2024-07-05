@@ -3,11 +3,27 @@ const navBar = ["Learner","Gooder","Foostger","greater","bester"];
 
 const fullList = [
     {
-        Contact : {
-            Bester : `
-             <img src='https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 387w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 687w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 774w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 987w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1287w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1374w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1587w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1887w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1974w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2187w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2487w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2574w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2787w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3087w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3174w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3387w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3687w, https://images.unsplash.com/photo-1719176372917-6c96c3608161?q=80&w=3759&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3759w'/>   
-            `,
-            Gooder : []
+        English : {
+            Basics : [
+              {
+                Be_Verb: [
+                  'Be Verb Sentences', 
+                  'https://instagram.com/lesson1', 
+                  [
+                      { link: 'https://www.instagram.com/p/C86YwHnI23t/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', name: 'Instagram Crousel' },
+                  ]
+              ],
+              Imperative: [
+                  'Imperative Sentences', 
+                  'https://instagram.com/lesson2', 
+                  [
+                      { link: 'https://www.instagram.com/p/C88lqoMo1u_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', name: 'Instagram Crousel' },
+                      
+                  ]
+              ],
+              }
+            ],
+            Gooder : ''
             
         },
         Learner : {
@@ -103,6 +119,7 @@ const topNavLinks = document.querySelector("#top-nav-links");
 const sidesNavLinks = document.querySelector("#side-nav-bar");
 const sideBarButton = document.querySelector("#side-bar-open-close");
 const mainContent = document.querySelector("#main-content");
+const responsive_container = document.querySelector(".responsive-container");
 
 
 
@@ -140,8 +157,27 @@ for (let TopNavKey in fullList[0]) {
 
             sidesNavLinks.appendChild(sideNavAnchors);
 
+
+
+
+
+
+
+
+
+
+
+
+
             sideNavAnchors.addEventListener('click', function() {
-                mainContent.innerHTML = '';
+
+              if(sidesNavLinks.classList.contains("nav-open")) {
+                sidesNavLinks.classList.remove("nav-open");
+                
+                }
+
+                
+                responsive_container.innerHTML = '';
 
                 sidesNavLinks.querySelectorAll("a").forEach(anchor => {
                   anchor.style.backgroundColor = "orange";
@@ -149,13 +185,49 @@ for (let TopNavKey in fullList[0]) {
 
                 this.style.backgroundColor ="green";
 
-                let content = fullList[0][TopNavKey][SideNavKey];
-                mainContent.innerHTML = content; 
 
+                fullList[0][TopNavKey][SideNavKey].forEach(lesson => {
+                  for (let key in lesson) {
+                    let lessonDetails = lesson[key];
+                    let lessonRow = document.createElement('div');
+                    lessonRow.className = 'lesson-row';
+        
+                    let lessonLinkDiv = document.createElement('div');
+                    lessonLinkDiv.className = 'lesson-link';
+                    let lessonLink = document.createElement('a');
+                    lessonLink.href = lessonDetails[1];
+                    lessonLink.textContent = lessonDetails[0];
+                    lessonLinkDiv.appendChild(lessonLink);
+        
+                    let dropdownDiv = document.createElement('div');
+                    dropdownDiv.className = 'dropdown';
+        
+                    let dropbtn = document.createElement('button');
+                    dropbtn.className = 'dropbtn';
+                    dropbtn.textContent = '🡇';
+        
+                    let dropdownContent = document.createElement('div');
+                    dropdownContent.className = 'dropdown-content';
+        
+                    lessonDetails[2].forEach((download, index) => {
+                        let downloadLink = document.createElement('a');
+                        downloadLink.href = download.link;
+                        downloadLink.textContent = `${download.name}`;
+                        downloadLink.target = '_blank';
+                        dropdownContent.appendChild(downloadLink);
+                    });
+        
+                    dropdownDiv.appendChild(dropbtn);
+                    dropdownDiv.appendChild(dropdownContent);
+        
+                    lessonRow.appendChild(lessonLinkDiv);
+                    lessonRow.appendChild(dropdownDiv);
+        
+                    responsive_container.appendChild(lessonRow);
+                }
+                })
 
-                if (window.instgrm && window.instgrm.Embeds) {
-                  window.instgrm.Embeds.process();
-              }
+                
             });
         });
     });
