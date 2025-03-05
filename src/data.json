@@ -1,0 +1,137 @@
+[
+    {
+        "question": "What is matter?",
+        "options": [
+            "Anything that has mass and occupies space",
+            "Only solid objects",
+            "Only objects that can be touched",
+            "Only gases"
+        ],
+        "answer": "Anything that has mass and occupies space"
+    },
+    {
+        "question": "Which state of matter has a definite shape and volume?",
+        "options": ["Solid", "Liquid", "Gas", "Plasma"],
+        "answer": "Solid"
+    },
+    {
+        "question": "Which state of matter takes the shape of its container but has a definite volume?",
+        "options": ["Solid", "Liquid", "Gas", "Plasma"],
+        "answer": "Liquid"
+    },
+    {
+        "question": "Which state of matter has neither a definite shape nor a definite volume?",
+        "options": ["Solid", "Liquid", "Gas", "Bose-Einstein Condensate"],
+        "answer": "Gas"
+    },
+    {
+        "question": "What is mass?",
+        "options": [
+            "The amount of matter in an object",
+            "The space an object occupies",
+            "The shape of an object",
+            "The ability to conduct heat"
+        ],
+        "answer": "The amount of matter in an object"
+    },
+    {
+        "question": "How is mass measured?",
+        "options": ["In liters", "In kilograms or grams", "In meters", "In Celsius"],
+        "answer": "In kilograms or grams"
+    },
+    {
+        "question": "What is volume?",
+        "options": [
+            "The amount of matter in an object",
+            "The space that an object occupies",
+            "The force of attraction between particles",
+            "The density of an object"
+        ],
+        "answer": "The space that an object occupies"
+    },
+    {
+        "question": "How are particles arranged in a solid?",
+        "options": [
+            "Loosely packed and move freely",
+            "Densely packed with strong attraction",
+            "Spread out with no fixed shape",
+            "Move in random directions with high speed"
+        ],
+        "answer": "Densely packed with strong attraction"
+    },
+    {
+        "question": "Why do liquids flow?",
+        "options": [
+            "Because their particles are fixed in place",
+            "Because their particles can move past one another",
+            "Because they have a definite shape",
+            "Because they have strong forces of attraction"
+        ],
+        "answer": "Because their particles can move past one another"
+    },
+    {
+        "question": "What are conductors?",
+        "options": [
+            "Materials that allow heat and electricity to pass through",
+            "Materials that do not allow heat and electricity to pass through",
+            "Materials that change shape easily",
+            "Materials that cannot be melted"
+        ],
+        "answer": "Materials that allow heat and electricity to pass through"
+    },
+    {
+        "question": "Which of the following is a good conductor?",
+        "options": ["Rubber", "Wood", "Copper", "Plastic"],
+        "answer": "Copper"
+    },
+    {
+        "question": "Which of the following is NOT a metal?",
+        "options": ["Iron", "Gold", "Plastic", "Copper"],
+        "answer": "Plastic"
+    },
+    {
+        "question": "Which property makes metals useful for making electric wires?",
+        "options": ["Hardness", "Shininess", "Good conductivity", "Density"],
+        "answer": "Good conductivity"
+    },
+    {
+        "question": "Which metal is used for making kitchen utensils due to its high conductivity?",
+        "options": ["Copper", "Wood", "Plastic", "Rubber"],
+        "answer": "Copper"
+    },
+    {
+        "question": "What determines whether a metal is classified as heavy or light?",
+        "options": ["Its hardness", "Its density", "Its color", "Its texture"],
+        "answer": "Its density"
+    },
+    {
+        "question": "Which metals are considered light metals?",
+        "options": ["Zinc, Mercury, Chromium", "Magnesium, Aluminum, Titanium", "Iron, Gold, Copper", "Nickel, Tin, Lead"],
+        "answer": "Magnesium, Aluminum, Titanium"
+    },
+    {
+        "question": "What property allows metals to be drawn into wires?",
+        "options": ["Conductivity", "Ductility", "Hardness", "Density"],
+        "answer": "Ductility"
+    },
+    {
+        "question": "What property allows metals to be hammered into sheets?",
+        "options": ["Brittleness", "Malleability", "Shininess", "Density"],
+        "answer": "Malleability"
+    },
+    {
+        "question": "Why do metals make a ringing sound when tapped?",
+        "options": ["Due to their color", "Due to their density", "Due to their texture", "Due to their brittleness"],
+        "answer": "Due to their density"
+    },
+    {
+        "question": "What is resonance?",
+        "options": ["The ability to conduct electricity", "The vibration of an object at its natural frequency", "The ability to change shape", "The ability to reflect light"],
+        "answer": "The vibration of an object at its natural frequency"
+    },
+    {
+        "question": "Which of the following metals is NOT attracted to a magnet?",
+        "options": ["Iron", "Nickel", "Gold", "Cobalt"],
+        "answer": "Gold"
+    }
+]
